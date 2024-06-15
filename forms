@@ -1,0 +1,13 @@
+# study of forms
+- forms basically is a input from user as work in the backend development
+- want the user input we use the input tag ther are following attributes:-
+- input[type=text] - will only select text fields
+- input[type=password] - will only select password fields
+- input[type=number] - will only select number fields
+- input[type=mail] - will only select email feild
+- input[type=date] - will only select date fields
+- input[type=checkbox] - will select the checked fields
+- input[type=radio] - will only select one fields
+- <textarea> - write the address fields
+- <button> :- reset : to clear the content of the forms
+              submit : to save the record of the file
