@@ -1,0 +1,15 @@
+ #overflow properties
+ - visible: the overflow is not clipped. it renders outside the element's box. this is default. 
+   overflow:visible
+- hidden: the overflow is clipped, and the rest of the content will n=be invisible. content cna be scrolled programmatically (eg by setting scrollLeft to scrollTo())
+  overflow:hidden;
+- clip:the overflow is clipped,and the rest of the content will be invisible.forbirds scrolling, inlcuding programmatic scrolling.
+  overflow:clip;
+- scroll: the overflow is clipped, but a scroll-bar is added to see the rest of the content 
+  overflow:scroll;
+- auto:if the overflow is clipped, a scroll-bar should be added to see the rest of the content.
+  overflow:auto;
+- initial:sets this property to its default value. read about initial 
+  overflow:initial;
+- inherit:inherits this property form its parent element. read about inherit
+  overflow:inherit;
